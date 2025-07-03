@@ -22,17 +22,22 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    /* background-image:url(./img/nav-image.png); */
     background-color: rgb(122, 120, 120);
     position: sticky;
     top: 0;
     z-index: 10;
 }
 
-.navbar .logo {
+.navbar .logo-1 {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
+}
+.navbar .logo-2 {
+    font-size: 12px;
+    font-weight: bold;
+    color:#76ace5;
+    margin-left:30px ;
 }
 .nav-links {
     list-style: none;
