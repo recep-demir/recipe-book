@@ -62,22 +62,21 @@ body {
 
 
 .container{
-        background-image: url("./img/pizza.jpeg");
+    height: 79.8vh;
+    background-image: url("./img/pizza.jpeg");
+     margin-top: 0;
+    padding-top: 0;
+    overflow: hidden;
+    /* border: 2px solid red; */
 }
 
 .title{
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
     gap: 10px;
     color: white;
-}
-
-
-
-.container{
-    height: 79.8vh;
 }
 
 .categorySection {
@@ -187,7 +186,7 @@ body {
 }
 
 .headerContainer button:hover {
-    background-color: #f1c40f;
+    background-color: #117AEF;
     cursor: pointer;
     transition: 0.5s ease-in;
     color: black;
@@ -211,6 +210,5 @@ footer a{
     color: black;
     border-bottom:2px solid black ;
 }
-
 
 
