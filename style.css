@@ -526,6 +526,12 @@ form .buttons input:hover{
   .recipe-title .rating {
     width: auto;
   }
+  .recipe .content{
+
+    line-height: 1rem;
+    background-color: white;
+
+}
 
   .home-bottom {
     flex-direction: column;
