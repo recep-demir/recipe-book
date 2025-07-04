@@ -13,7 +13,7 @@
     
     <nav class="navbar">
         <div class="logo">
-        <div class="logo-1"><i class="fa-solid fa-book-bookmark" style="color: #117AEF;"></i> Recipe Book</div>
+        <a href="#home" class="logo-1"><i class="fa-solid fa-book-bookmark" style="color: #117AEF;"></i> Recipe Book</a>
         <div class="logo-2">Your guide to tasty dishes</div>
         </div>
         
@@ -27,7 +27,7 @@
 
 
 
-    <section class="home">
+    <section class="home" id="home">
         <h1 class="title">Welcome to My Recipe Website</h1>
         <div class="categorySection">
             <ul class="categories">
@@ -39,9 +39,9 @@
             </ul>
         </div>
         <div class="search">
-  <input type="text" placeholder="Search" />
-  <button><a href="#recipe"><i class="fa fa-search"></i></a></button>
-</div>
+            <input type="text" placeholder="Search" />
+            <button><a href="#recipe"><i class="fa fa-search"></i></a></button>
+        </div>
 
         
         <div class="header">
@@ -100,11 +100,12 @@
     </section>
 
     <section class="register" id="register" style="color: black;">
+        <div class="container">
         <header>
         Sign Up
       </header>
 
-      <section>
+      <div class="form-section">
         <form action="">
           <div>
             <label for="firstName">First Name:</label>
@@ -129,14 +130,6 @@
           <div>
             <label for="birthDate">Date of Birth:</label>
             <input type="date" id="birthDate" name="BirthDate" min="1974-01-02" max="2008-01-01" />
-          </div>
-
-          <div>
-            <label>Gender:</label>
-            <input type="radio" id="female" name="Gender" value="Female" />
-            <label for="female">Female</label>
-            <input type="radio" id="male" name="Gender" value="Male" />
-            <label for="male">Male</label>
           </div>
 
           <div>
@@ -166,12 +159,18 @@
             <input type="reset" value="RESET" />
           </div>
         </form>
-      </section>
+      </div>
 
       <br />
-      <a href="https://recipebook.com/" target="_blank">Visit Recipe Book for More Info</a>
+      <a href="*home" target="_blank">Visit Recipe Book for More Info</a>
+      </div>
 
     </section>
+
+    <footer>
+
+        
+    </footer>
 
     
 
