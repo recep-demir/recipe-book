@@ -32,6 +32,7 @@ body {
     font-size: 2rem;
     font-weight: bold;
     color: #fff;
+    text-decoration: none;
     
 }
 .navbar .logo-2 {
@@ -132,14 +133,19 @@ body {
     align-items: center;
     padding: 5px;
     gap: 10px;
+    margin:auto;
+    width: 70vw;
+    
 }
 
 .search input {
     font-size: 1rem;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
-    width: 60vw;
-    padding: 10px 15px;
+    padding: 10px 25px;
+    margin-top: 10px;
+    
+    
 }
 
 .search button {
@@ -255,6 +261,7 @@ body {
 .recipe {
     background-color: #F5F5F6;
     padding-top: 5rem;
+    position: relative;
 
     
 
@@ -333,6 +340,7 @@ body {
 }
 
 .recipe-bottom{
+
     background-color:#7A7878;
     display: flex;
     justify-content: space-between;
@@ -345,3 +353,102 @@ body {
     border-bottom:2px solid black ;
 }
 
+.register{
+    background-color:#F5F5F6 ;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register .container {
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+header {
+  display: flex;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.form-section {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+select,
+textarea {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form .buttons{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+form .buttons input {
+    font-size: 1rem;
+    background-color: #117AEF;
+    color: white;
+    width: 48%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s;
+    text-decoration: none;
+    padding: 10px;
+}
+form .buttons input:hover{
+        color: #117AEF;
+
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero img,
+  .recipe-title {
+    width: 100vw;
+  }
+}
