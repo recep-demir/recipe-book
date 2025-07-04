@@ -46,22 +46,28 @@ body {
     margin: 0;
     padding: 0;
 }
-.nav-links li {
-    margin: 0 0.5rem;
-}
 
-.nav-links a {
-    color: #fff;
+.nav-button{
+    font-size: 1rem;
+    background-color: #117AEF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 0 0.5rem;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1 rem;
     transition: color 0.3s;
 }
-.nav-links a:hover {
+
+.nav-button:hover {
     color: #117AEF;
+    color: black;
 }
 
 
-.container{
+.home{
     height: 79.8vh;
     background-image: url("./img/pizza.jpeg");
      margin-top: 0;
@@ -194,10 +200,7 @@ body {
 
 
 
-
-
-
-footer{
+.home-bottom{
     height: 8.3vh;
     background-color: rgb(122, 120, 120);
     display: flex;
@@ -205,10 +208,46 @@ footer{
     align-items: center;
     padding: 0 15px ;
 }
-footer a{
+.home-bottom p a{
     text-decoration: none;
     color: black;
     border-bottom:2px solid black ;
 }
 
+.social-media a{
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+    color: white;
+    
 
+}
+
+.social-media a:hover{
+    color: black;
+}
+
+
+
+.headerContainer button {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #121619;
+    height: 40px;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.headerContainer button:hover {
+    background-color: #117AEF;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    color: black;
+}
