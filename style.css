@@ -68,9 +68,10 @@ body {
 
 
 .home{
+    /* border: 2px solid blue; */
     height: 79.8vh;
     background-image: url("./img/pizza.jpeg");
-     margin-top: 0;
+    margin-top: 0;
     padding-top: 0;
     overflow: hidden;
     /* border: 2px solid red; */
@@ -164,13 +165,13 @@ body {
 .headerContainer{
     width: auto;
     margin-left: 50px;
-    padding-top: 10vh; 
+    padding-top: 8vh; 
 }
 
 .headerContainer h1 {
     align-items: center;
     font-size: 5rem;
-    height: 60px;
+    height: 30px;
     font-weight: 40;
     color: black;
     justify-content: center;
@@ -201,6 +202,7 @@ body {
 
 
 .home-bottom{
+    /* border: 2px solid red; */
     height: 8.3vh;
     background-color: rgb(122, 120, 120);
     display: flex;
@@ -228,8 +230,6 @@ body {
     color: black;
 }
 
-
-
 .headerContainer button {
     color: black;
     border: none;
@@ -251,3 +251,97 @@ body {
     transition: 0.5s ease-in;
     color: black;
 }
+
+.recipe {
+    background-color: #F5F5F6;
+    padding-top: 5rem;
+
+    
+
+}
+.hero {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.hero img {
+    width: 50vw;
+}
+
+.recipe-title {
+    color: black;
+    width: 50vw;
+    display: flex;
+    justify-content:center;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.recipe-title h1 {
+    font-size:3rem;
+    width: 25vw;
+}
+
+.recipe-title .rating {
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    width: 500px;
+    font-size: 1.5rem;
+}
+.recipe-title .rating strong{
+    color: red;
+}
+
+.recipe-title button {
+    width: 6rem;
+    height: 2.5rem;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    background-color: #117AEF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+     
+}
+.recipe-title button:hover {
+    color: #117AEF;
+    color: black;
+
+}
+
+.recipe .created{
+    font-size: small;
+}
+
+.recipe .created strong {
+    color: blue;
+    border-bottom: 1px solid ;
+}
+
+.recipe .content{
+    color: black;
+    margin: 10px 200px;
+    line-height: 1.5rem;
+    background-color: white;
+    padding: 20px 50px;
+
+
+}
+
+.recipe-bottom{
+    background-color:#7A7878;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px ;
+}
+.recipe-bottom p a{
+    text-decoration: none;
+    color: black;
+    border-bottom:2px solid black ;
+}
+
