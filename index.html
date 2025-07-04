@@ -18,8 +18,8 @@
         </div>
         
         <ul class="nav-links">
-            <li><a href="#signup" class="nav-button">Sign Up</a></li>
-            <li><a href="#login" class="nav-button">Log In</a></li>
+            <li><a href="#register" class="nav-button">Sign Up</a></li>
+            <li><a href="#register" class="nav-button">Log In</a></li>
         </ul>
         
     </nav>
@@ -31,8 +31,8 @@
         <h1 class="title">Welcome to My Recipe Website</h1>
         <div class="categorySection">
             <ul class="categories">
-                <li><a href="#recepies" class="button">Discover</a></li>
-                <li><a href="#main-courses">Main Courses</a></li>
+                <li><a href="#recipe" class="button">Discover</a></li>
+                <li><a href="#recipe">Main Courses</a></li>
                 <li><a href="#appetizers">Appetizers</a></li>
                 <li><a href="#salads">Salads</a></li>
                 <li><a href="#desserts">Desserts</a></li>
@@ -40,7 +40,7 @@
         </div>
         <div class="search">
   <input type="text" placeholder="Search" />
-  <button><i class="fa fa-search"></i></button>
+  <button><a href="#recipe"><i class="fa fa-search"></i></a></button>
 </div>
 
         
@@ -49,7 +49,7 @@
         <div class="headerContainer">
             <h1>Homemade Pizza</h1>
             <p>PIZZA TO FIT ANY TASTE</p>
-            <a href="#menu">
+            <a href="#recipe">
             <button>Let’s Get Making</button>
             </a>
         </div>
@@ -71,9 +71,109 @@
         <p><a href="">©2025; All Rights Reserved</a></p>
     </section>
 
-    <section class="recipe">
+    <section class="recipe" id="recipe">
+        <div class="hero">
+            <img src="./img/napolitan.png" alt="Pizza Image"/>
+            <div class="recipe-title">
+                <h1>Recep-Style Pepperoni Pizza</h1>
+                <p class="rating">4.0<strong> ★★★★☆ </strong></p>
+                <button class="save-btn"><i class="fa-solid fa-heart"></i> Save</button>
+                <p class="created">Created Jul 04, 2025 by <strong>Recep Demir</strong> </p>
+            </div>
+        </div>
+        <div class="content">
+            <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem cumque, laboriosam nobis excepturi tenetur facere libero quaerat ab harum perspiciatis asperiores? Numquam tempore tenetur pariatur ad vero blanditiis ipsum fugit nam dolorum corporis molestiae, atque, ut corrupti deserunt aut mollitia expedita officiis sed quas esse. Quaerat voluptate suscipit, illo vitae autem assumenda asperiores, illum saepe magnam dignissimos placeat. Iusto expedita iure officia, corrupti debitis adipisci ea soluta, repudiandae earum molestiae perspiciatis fugit dolorem unde libero vero illum architecto! Praesentium possimus non eveniet eligendi dolore libero magnam temporibus in minus, similique ex dolorem facilis numquam tempora molestias porro pariatur inventore! Aspernatur, veniam error repudiandae numquam ut quasi quia dignissimos, repellat asperiores dolor quam. Dolorem totam vitae quae quibusdam velit necessitatibus iusto explicabo temporibus veritatis optio quaerat aliquam distinctio, repellat cum. Neque omnis odit animi ea nobis ipsam maiores quam ipsum? Iste nostrum exercitationem perspiciatis earum autem, vero, voluptatem id dicta porro mollitia magnam officiis ducimus cumque adipisci nulla animi, fuga soluta sapiente temporibus ipsum dolore suscipit ut dolores modi. Nulla a, quasi libero suscipit sit officiis non magnam, modi deserunt sapiente quia id. Officiis itaque minima pariatur eaque sunt consequuntur eveniet provident cupiditate dolorem nulla error assumenda impedit inventore nostrum doloribus recusandae optio quae molestias, autem ipsum? Consequatur dolorum in porro, consectetur repellat eaque tenetur quas voluptate laborum nam totam deserunt aperiam provident nostrum velit a architecto placeat voluptatibus quo expedita libero eum? Tempora nisi alias, pariatur, et modi doloremque nobis necessitatibus, quaerat velit quos distinctio. Voluptatum quos iusto sequi aperiam odit quidem distinctio qui voluptate reprehenderit delectus. 
+      </p>
+        </div>
+
+        <div class="recipe-bottom">
         
+        <p><a href="">©2025; All Rights Reserved by Recep Demir</a></p>
+        <p><a href="">Privacy Policy</a></p>
+    </div>
+
+
+
+
+
     </section>
+
+    <section class="register" id="register" style="color: black;">
+        <header>
+        Sign Up
+      </header>
+
+      <section>
+        <form action="">
+          <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="FirstName" required placeholder="Your name" />
+          </div>
+
+          <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="LastName" />
+          </div>
+
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="Email" />
+          </div>
+
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="Password" />
+          </div>
+
+          <div>
+            <label for="birthDate">Date of Birth:</label>
+            <input type="date" id="birthDate" name="BirthDate" min="1974-01-02" max="2008-01-01" />
+          </div>
+
+          <div>
+            <label>Gender:</label>
+            <input type="radio" id="female" name="Gender" value="Female" />
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="Gender" value="Male" />
+            <label for="male">Male</label>
+          </div>
+
+          <div>
+            <label for="photo">Upload Photo:</label>
+            <input type="file" id="photo" name="Photo" />
+          </div>
+
+          <div>
+            <label for="cook">Who do you cook for? *</label>
+            <select id="cook" name="cook" required>
+              <option value="" selected>---Select---</option>
+
+                <option value="Partner">Partner/Spouse</option>
+                <option value="Young">Young Children</option>
+                <option value="Teens">Teens</option>
+                <option value="Myself">Myself</option>
+
+            </select>
+          </div>
+
+          
+
+          <br />
+
+          <div class="buttons">
+            <input type="submit" value="REGISTER" />
+            <input type="reset" value="RESET" />
+          </div>
+        </form>
+      </section>
+
+      <br />
+      <a href="https://recipebook.com/" target="_blank">Visit Recipe Book for More Info</a>
+
+    </section>
+
+    
 
     
 
