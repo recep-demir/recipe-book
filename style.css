@@ -250,7 +250,6 @@ body {
 
 .recipe {
     background-color: #F5F5F6;
-    padding-top: 5rem;
     position: relative;
 
     
@@ -305,7 +304,7 @@ body {
      
 }
 .recipe-title button:hover {
-    color: #117AEF;
+
     color: black;
 
 }
@@ -326,6 +325,36 @@ body {
     background-color: white;
     padding: 20px 50px;
 }
+
+.recipe-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    margin:auto;
+    width: 70vw;
+
+}
+
+.recipe-button button{
+  width: 6rem;
+    height: 2.5rem;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    background-color: #117AEF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+
+}
+
+.recipe-button button:hover{
+  color: black;
+}
+
 
 .recipe-bottom{
 
