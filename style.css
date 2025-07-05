@@ -5,6 +5,7 @@ body {
     color: #fff;
     overflow-x: hidden;
 }
+/* Navbar */
 
 .navbar {
     height: 8vh;
@@ -53,13 +54,13 @@ body {
 }
 
 .nav-button:hover {
-    color: #117AEF;
     color: black;
 }
 
 
+/* Home */
+
 .home{
-    /* border: 2px solid blue; */
     height: 79.6vh;
     background-image: url("./img/pizza.jpeg");
     margin-top: 0;
@@ -135,8 +136,6 @@ body {
     padding: 10px 25px;
     margin-top: 10px;
 
-    
-    
 }
 
 .search button {
@@ -175,15 +174,14 @@ body {
 }
 
 .headerContainer button {
-    color: black;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     justify-content: center;
     background-color: #121619;
     height: 40px;
     width: 200px;
-    color: white;
+    color:white;
     text-decoration: none;
     font-size: 1.2rem;
     margin-top: 5px;
@@ -227,33 +225,12 @@ body {
     color: black;
 }
 
-.headerContainer button {
-    color: black;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    justify-content: center;
-    background-color: #121619;
-    height: 40px;
-    width: 200px;
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-top: 5px;
-}
 
-.headerContainer button:hover {
-    background-color: #117AEF;
-    cursor: pointer;
-    transition: 0.5s ease-in;
-    color: black;
-}
+/* recipe */
 
 .recipe {
     background-color: #F5F5F6;
     position: relative;
-
-    
 
 }
 .hero {
@@ -371,6 +348,8 @@ body {
     border-bottom:2px solid black ;
 }
 
+
+/* Register */
 .register{
     background-color:#F5F5F6 ;
     padding-top: 5rem;
