@@ -1,5 +1,7 @@
 # Recipe App
 
+[Live Demo](https://recipe-book-recepdemir.netlify.app/)
+
 A simple and responsive web-based Recipe App. Users can search for recipes, view details, and interact with buttons such as Like, Save, and Share.
 
 ## Features
