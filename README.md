@@ -12,6 +12,15 @@ A simple and responsive web-based Recipe App. Users can search for recipes, view
 * Smooth navigation using anchor links
 * Clean and modern UI
 
+## Project-folder
+
+├── index.html         
+├── register.html     
+├── recipe.html
+├── style.css           
+├── img/               
+└── README.md 
+
 ## Technologies Used
 
 * HTML5
